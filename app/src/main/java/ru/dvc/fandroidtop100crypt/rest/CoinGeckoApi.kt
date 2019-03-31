@@ -6,6 +6,7 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface CoinGeckoApi {
+
     //запрос списка криптовалют
     @GET("coins/markets")
     fun getCoinMarket(
